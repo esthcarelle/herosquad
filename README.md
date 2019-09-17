@@ -39,4 +39,4 @@ You can contact me at esthcarelle@gmail.com
 
 ## License
 
-- This project is licensed under the MIT Open Source license Copyright (c) 2019. [Peter Wachira](https://github.com/peter-wachira/HeroSquad-/blob/master/LICENCE)
+- This project is licensed under the MIT Open Source license Copyright (c) 2019. [Esther Carrelle](https://)
