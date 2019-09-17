@@ -6,11 +6,11 @@
 
 
     {{#if editSquad}}
-        <h1>Edit this Post!</h1>
+        <h1>Edit this squad!</h1>
         <form action="/squads/{{editSquad.id}}" method="post">
             <label for="name">Edit this squad's name</label>
             <input id="name" name="name" type="text" value="{{editSquad.name}}"><br>
-               <label for="age">Edit this hero's age</label>
+               <label for="age">Edit this squad's age</label>
                         <input id="age" name="size" type="number" value="{{editSquad.size}}"><br>
                                   <label for="weakness">Edit this squad's weakness</label>
                                         <input id="weakness" name="cause" type="text" value="{{editSquad.cause}}"><br>
@@ -18,7 +18,7 @@
 
 
     {{else}}
-    <h1>Add a new hero</h1>
+    <h1>Add a new squad</h1>
 
     <form action="/squads" method="post">
 
