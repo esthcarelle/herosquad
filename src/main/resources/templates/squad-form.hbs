@@ -1,18 +1,18 @@
 {{#partial "content"}}
 <body style="background-image:url('/images/5aa1b61613119.jpg');
              background-repeat:no-repeat;
-             background-size: cover;" >
+             background-size: cover;font-family: 'Indie Flower', cursive;" >
              <div class="well">
 
 
     {{#if editSquad}}
         <h1>Edit this squad!</h1>
         <form action="/squads/{{editSquad.id}}" method="post">
-            <label for="name">Edit this squad's name</label>
+            <label for="name">Edit this squad's name</label><br>
             <input id="name" name="name" type="text" value="{{editSquad.name}}"><br>
-               <label for="age">Edit this squad's age</label>
+               <label for="age">Edit this squad's age</label><br>
                         <input id="age" name="size" type="number" value="{{editSquad.size}}"><br>
-                                  <label for="weakness">Edit this squad's weakness</label>
+                                  <label for="weakness">Edit this squad's weakness</label><br>
                                         <input id="weakness" name="cause" type="text" value="{{editSquad.cause}}"><br>
 
 

@@ -1,7 +1,7 @@
 {{#partial "content"}}
 <body style="background-image:url('/images/5aa1b61613119.jpg');
              background-repeat:no-repeat;
-             background-size: cover;" >
+             background-size: cover;font-family: 'Indie Flower', cursive;" >
 
 
 <div class="well" style="width:50%">
@@ -9,13 +9,13 @@
     {{#if editHero}}
         <h1>Edit this hero!</h1>
         <form action="/heroes/{{editHero.id}}" method="post">
-            <label for="name">Edit this hero's name</label>
+            <label for="name">Edit this hero's name</label><br>
             <input id="name" name="name" type="text" value="{{editHero.name}}"><br>
-               <label for="age">Edit this hero's age</label>
+               <label for="age">Edit this hero's age</label><br>
                         <input id="age" name="age" type="number" value="{{editHero.age}}"><br>
-                           <label for="specialPower">Edit this hero's special power</label>
+                           <label for="specialPower">Edit this hero's special power</label><br>
                             <input id="specialPower" name="specialPower" type="text" value="{{editHero.specialPower}}"><br>
-                               <label for="weakness">Edit this hero's weakness</label>
+                               <label for="weakness">Edit this hero's weakness</label><br>
                                 <input id="weakness" name="weakness" type="text" value="{{editHero.weakness}}"><br>
 
         </div>
@@ -26,13 +26,13 @@
 
     <form action="/heroes" method="post">
 
-        <label for="name">Hero name</label>
+        <label for="name">Hero name</label><br>
         <input id="name" name="name" type="text"><br>
-        <label for="age">Hero age</label>
+        <label for="age">Hero age </label><br>
                 <input id="age" name="age" type="number"><br>
-                <label for="specialPower">Hero special power</label>
+                <label for="specialPower">Hero special power</label><br>
                  <input id="specialPower" name="specialPower" type="text"><br>
-                 <label for="weakness">Hero weakness</label>
+                 <label for="weakness">Hero weakness    </label><br>
                          <input id="weakness" name="weakness" type="text"><br>
 
                             {{/if}}
