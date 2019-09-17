@@ -1,4 +1,7 @@
 {{#partial "content"}}
+<body style="background-image:url('/images/5aa1b61613119.jpg');
+             background-repeat:no-repeat;
+             background-size: cover;" >
 {{#if heroes}}
         {{#each heroes }}
 <div class="card w-50">
@@ -16,7 +19,9 @@
         {{/each}}
     {{else}}
      <p>No heroes!</p>
+
     {{/if}}
+    </body>
 {{/partial}}
 
 {{> layout.hbs}}
