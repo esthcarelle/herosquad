@@ -1,7 +1,7 @@
 # Hero Squad
 #### Hero Squad, September 13rd 2019
 #### By **esther Carrelle**
-![](screenshots/screenshot1.png)
+![](src/main/resources/public/images/screen.png)
 
 
 
